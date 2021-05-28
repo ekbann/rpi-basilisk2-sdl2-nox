@@ -14,7 +14,7 @@ fi
 echo -e "${RED}>>> No update. Installing development packages in 5 seconds.${NC}"
 sleep 5
 
-sudo apt install unzip git libudev-dev automake gobjc -y
+sudo apt install unzip libudev-dev automake gobjc -y
 
 echo -e "${RED}>>> Downloading SDL2 version 2.0.14 in 5 seconds.${NC}"
 sleep 5
