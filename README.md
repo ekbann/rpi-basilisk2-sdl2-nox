@@ -16,7 +16,7 @@ To install, boot into your freshly created Raspberry Pi OS Lite and login with t
     git clone https://github.com/ekbann/rpi-basilisk2-sdl2-nox .
     ./run.sh
 
-When the script ends, run Basilisk II with the commands below and Enjoy!
+When the script ends, it will run Basilisk II automatically but you can also manually start with the commands below. Enjoy!
 
 NOTE: Whenever you reboot your Pi, you need to reload the snd-pcm-oss module before running Basilisk II for sound output. snd-pcm-oss is a kernel module from ALSA's OssEmulation which emulates the old OSS audio devices /dev/dsp and /dev/audio.
 
