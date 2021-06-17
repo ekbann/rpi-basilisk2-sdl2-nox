@@ -73,7 +73,8 @@ screen win/640/480
 displaycolordepth 8" | tee -a ~/.basilisk_ii_prefs
 
 cd ~
-unzip rpi-basilisk2-sdl2-nox/HD200MB-POP.zip -d /home/pi/
+unzip rpi-basilisk2-sdl2-nox/HD200MB-POP.zip -d /home/pi
+cp rpi-basilisk2-sdl2-nox/Quadra800.ROM .
 
 echo -e "${RED}>>> Done. Starting BasiliskII...${NC}"
 sleep 5
