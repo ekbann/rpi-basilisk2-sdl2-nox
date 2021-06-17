@@ -72,8 +72,8 @@ fpu true
 screen win/640/480
 displaycolordepth 8" | tee -a ~/.basilisk_ii_prefs
 
-cd
-unzip HD200MB-POP.zip
+cd ~
+unzip rpi-basilisk2-sdl2-nox/HD200MB-POP.zip -d /home/pi/
 
 echo -e "${RED}>>> Done. Starting BasiliskII...${NC}"
 sleep 5
